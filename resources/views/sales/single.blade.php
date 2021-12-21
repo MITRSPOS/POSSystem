@@ -8,7 +8,7 @@
                  <small class="float-right">Date: {{ date_format($sale->created_at, 'd-M-Y') }}</small> 
                  <br/>
                  
-                  < /h4><hr></div></div>
+                  <hr></div></div>
                  <div class="row invoice-info"><div class="col-sm-4 invoice-col">Customer: <address> 
                      <strong>{{ $sale->client->name }}
 
@@ -21,4 +21,5 @@
                 <td>{{ $cart->product_id }}</td><td>{{ $cart->products[0]->name}}</td><td>{{ $cart->amount }}</td><td>{{ $cart->products[0]->price }}</td></tr>@endforeach</tbody></table></div></div><div class="row"><div class="col-6">
 
             </div><div class="col-6"><div class="table-responsive"><table class="table"><tbody><tr><th>Total:</th><td><strong>Rp.{{ $sale->total }}</strong></td></tr></tbody></table></div></div></div></div></div></div><hr><p class="text-center">Thank you</p><p class="text-center"> <input type="button" class="btn text-center rounded-pill btn-light" value="Receipt Print" onclick="printPage('print');"></input> 
-    / For invoice print just presh ctrl + P</p></div> @endsection
+   
+</div> @endsection
