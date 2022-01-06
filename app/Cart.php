@@ -16,7 +16,7 @@ class Cart extends Model
         'sale_id', 'product_id','amount', 'created'
     ];
 
-    //This model can have one or many sales
+    // The following model can have one or more sales....
     public function sales() {
         return $this->hasMany('App\Sale', 'sale_id', 'sale_id');
     }

@@ -12,7 +12,7 @@ class Product extends Model
         'name', 'description', 'product_left', 'price', 'cost', 'category_id'
     ];
 
-    // This model can exists in N carts
+    // This model can exists in many carts
     public function carts() {
         return $this->belongsToMany('App\Cart', 'carts', 'sale_id');
     }
