@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Create The Application
+| Create The Application By MITRS Team
 |--------------------------------------------------------------------------
 |
 | The first thing we will do is create a new Laravel application instance

@@ -3,7 +3,7 @@
 =========================================================
 * Soft UI Design System - v1.0.2
 =========================================================
-
+* Done By MITRS Team
 * Product Page: https://www.creative-tim.com/product/black-dashboard
 * Copyright site.year Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/black-dashboard/blob/master/LICENSE.md)
