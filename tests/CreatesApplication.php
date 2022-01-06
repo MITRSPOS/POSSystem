@@ -6,9 +6,9 @@ use Illuminate\Contracts\Console\Kernel;
 
 trait CreatesApplication
 {
-    /**
+    /**  Edit Edit
      * Creates the application.
-     *
+     * 
      * @return \Illuminate\Foundation\Application
      */
     public function createApplication()
